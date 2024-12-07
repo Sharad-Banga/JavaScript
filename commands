@@ -1,3 +1,3 @@
-git add commands
-git commit -m "commands file"
+git add practice.js
+git commit -m "add practice.js file"
 git push origin master

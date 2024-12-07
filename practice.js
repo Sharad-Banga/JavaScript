@@ -1,7 +1,6 @@
+const m = new Map();
 
-let user = {
-  email : "hello",
-  pass : "11"
-}
+m.set('IN ' , "INDIA")
 
-console.log(user["email"])
+
+console.log(m);

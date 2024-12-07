@@ -8,7 +8,6 @@ console.log(balance.toString()); //100
 
 console.log(balance.toFixed(2)); // 100.00
 
-
 const j = 299.993940;
 console.log(j.toFixed(2)) // 299.99
 
@@ -16,7 +15,6 @@ console.log(j.toPrecision(6)); // 299994
 
 const hundreds = 100000;
 console.log(hundreds.toLocaleString('en-IN')); //1,00,000
-
 
 //max value in js
 console.log(Number.MAX_VALUE); //1.7976931348623157e+308
@@ -54,8 +52,8 @@ console.log(Math.random()*10); // now 0 will never be ans
 
 console.log("++++++++++++++++++++++++")
 
+
 const max = 20;
 const min = 10;
 
 console.log(Math.floor(Math.random() * (max-min) +1) + min);
-

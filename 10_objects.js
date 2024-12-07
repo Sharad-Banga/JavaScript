@@ -13,7 +13,7 @@
 // //const obj = Object.assign({},obj1, obj2 ,obj3);
 
 // //            OR
- 
+
 // const obj = {...obj1 , ...obj2} // spread
 
 // console.log(obj);

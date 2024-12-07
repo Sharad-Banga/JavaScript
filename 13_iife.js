@@ -7,13 +7,13 @@
   console.log('DB CONNECTED',jj , ss);
 })("sam","sss"); 
 
-(
-  (name)=>{
-    console.log(`DB CONNECTED 2 ${name}`);
+// (
+//   (name)=>{
+//     console.log(`DB CONNECTED 2 ${name}`);
     
-  }
+//   }
 
-)("sharad")
+// )("sharad")
 
 
 // this functions invoke as we run the code

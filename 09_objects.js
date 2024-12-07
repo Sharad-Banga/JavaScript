@@ -1,7 +1,6 @@
 mySym = Symbol("key1");
 
 const user = {
-
   name : "sharad",
   class : "cse",
   sem : "fifth",
