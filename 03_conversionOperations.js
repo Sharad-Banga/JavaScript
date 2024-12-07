@@ -5,7 +5,7 @@ let num = Number(score);
 // console.log(num)
 
 // string 13 is converted into number then it prints 13
-// but if i convert 13a into number , which cannot be converted into number , then if we print , it giv NaN
+// but if we convert 13a into number , which cannot be converted into number , then if we print , it giv NaN
 // "" => false
 // "sharad" => true
 
@@ -46,3 +46,4 @@ let user = {
 }
 
 console.log(user[email])
+
