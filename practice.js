@@ -1,7 +1,7 @@
-let num = '12';
 
-const id = Symbol(num);
+let user = {
+  email : "hello",
+  pass : "11"
+}
 
-const an = Symbol(num);
-console.log(id===an); //false
-
+console.log(user["email"])
