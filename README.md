@@ -1,6 +1,6 @@
 # JavaScript  
 
-Welcome to my **JavaScript** repository! 🚀  
+Welcome to my **JavaScript** repository!🚀  
 
 ## About  
 This repository contains my daily JavaScript practice code. Each day, I work on various concepts, challenges, and projects to strengthen my understanding of JavaScript.  
