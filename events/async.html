@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Sharad Banga</h1>
+  <button id="stop">Stop</button>
+</body>
+<script>
+
+  let i = 0;
+  const h1 = document.querySelector('h1');
+  const stopButton = document.getElementById('stop');
+
+  function ss(){
+    h1.innerHTML = `hello ${i}`;
+    i++;
+  }
+  const set = setInterval(ss , 1000)
+
+  stopButton.addEventListener('click',function(){
+    clearInterval(set);
+  })
+
+</script>
+</html>
