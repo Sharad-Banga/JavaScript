@@ -25,7 +25,9 @@
 //  * 
 //  */
 
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+// functional arguments
 
 function sum(a,b){
     return a+b;
@@ -46,3 +48,7 @@ function doOperations(a,b,fxn){
 // console.log(multi(a,b));
 
 console.log(doOperations(2,3,multi));
+
+console.log("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+
+
