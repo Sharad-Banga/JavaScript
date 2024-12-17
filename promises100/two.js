@@ -26,11 +26,15 @@ setTimeoutPromisified(3000).then(callback);
  
 */
 
-function random(){
-
+function random(resolve){
+    setTimeout(resolve,3000);
 }
 
+function callback(){
+  console.log("hellooooo");
+  
+}
 
 let p = new Promise(random);
 
-console.log(p);
+p.then(callback)
