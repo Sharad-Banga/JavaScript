@@ -37,7 +37,6 @@ function multi(a,b){
   return a*b;
 }
 
-
 function doOperations(a,b,fxn){
   let ans = fxn(a,b);
   return ans;

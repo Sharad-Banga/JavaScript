@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>todo</title>
+  <style>
+
+    body{
+      background-color: black;
+    }
+    h1{
+      color: red;
+    }
+    h4{
+      background-color: yellow;
+      display: flex;
+      flex-direction: row;
+      height: 30px;
+      width:500px;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+  
+  <h1>Todo App</h1>
+  <input type="text " placeholder="text">
+  <button onclick="addNew()">Add</button>
+  <div id="prnt"></div>
+
+</body>
+
+<script>
+let index = 0;
+  function addNew(){
+    
+    //input element
+    const input = document.querySelector("input");
+
+    //new element creation
+    const newele = document.createElement('h4');
+    newele.id = index;
+    //new ele inner value
+    newele.innerHTML = `${input.value}  <button onclick="deleteE(${index})">Delete</button>`;
+
+    const prnt = document.getElementById('prnt');
+    prnt.appendChild(newele);
+    index++;
+    input.value = "";
+  }
+
+  function deleteE(index){
+      const dl = document.getElementById(index);
+      dl.parentElement.removeChild(dl);
+  }
+
+
+</script>
+</html>
