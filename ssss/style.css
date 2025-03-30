@@ -1,0 +1,21 @@
+.landing {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 365.391px;
+  max-width: 868.250px;
+  height: auto;
+  margin: auto;
+  margin-top: 81.200px;
+}
+
+.landing-heading {
+  font-size: 2.75rem;
+  margin: .67em 0;
+}
+
+.landing-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 60px;
+}
