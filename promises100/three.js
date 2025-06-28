@@ -13,4 +13,3 @@ function call(content){
 }
 
 new Promise(readFile).then(call)
-
