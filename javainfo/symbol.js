@@ -7,4 +7,4 @@ console.log(id==jd);// false
 
 // array
 
-const arr = [1,2,3,4]; 
+const arr = [1,2,3,4];
