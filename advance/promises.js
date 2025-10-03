@@ -21,8 +21,11 @@
 //   },1000)
 // }).then(function(){
 //   console.log("2 resolved");
-  
 // })
+
+
+
+
 // const j = {username:"sharad" , email:"sharadiit03@gmail.com"};
 
 // const promThree = new Promise(function(resolve,reject){
