@@ -62,9 +62,37 @@
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++
 //example 5
 
-let list = document.getElementById("shoppingList-5");
-let button = document.getElementById("removeItem");
+// let list = document.getElementById("shoppingList-5");
+// let button = document.getElementById("removeItem");
 
-button.addEventListener('click',()=>{
-  list.lastElementChild.remove();
-})
+// button.addEventListener('click',()=>{
+//   list.lastElementChild.remove();
+// })
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++
+//example 7
+
+// let list = document.getElementById("teaList");
+
+// list.addEventListener('click',(event)=>{
+//     console.log(event.target.textContent);
+    
+// })
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++
+//example-8
+
+
+// let input = document.getElementById("feedbackInput");
+// let button = document.getElementById("b");
+// let display = document.getElementById("feedbackDisplay");
+// button.addEventListener('click',(event)=>{
+//    event.preventDefault();  
+//     display.innerHTML = input.target.change.value;
+    
+// })
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++

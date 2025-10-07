@@ -14,6 +14,12 @@
 // })
 
 
+
+
+
+
+
+
 // new Promise(function(resolve , reject){
 //   setTimeout(function(){
 //       console.log("async 2");
@@ -22,6 +28,31 @@
 // }).then(function(){
 //   console.log("2 resolved");
 // })
+
+
+
+
+// new Promise((resolve , reject)=>{
+
+//     setTimeout(()=>{
+//         resolve();
+//     },3000)
+
+// }).then(()=>{
+//   console.log("gggggggggg");
+  
+// })
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -38,15 +69,17 @@
 //   console.log(user);
   
 // })
-//
 
 
-//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // const promiseFour = new Promise(function(resolve,reject){
 
 //   setTimeout(function(){
 //   const error = true
-//   if(!error){
+//   if(error){
 //     resolve({username:"sham" , pass:"sss"})
 
 //   }else{
@@ -55,19 +88,19 @@
 //   },1000)
 // })
 
-//   // promiseFour.then(function(user){
-//   //     console.log("USER .......",user)
-//   //     return user.username
-//   // }).then(function(username){
-//   //     console.log("user name" ,username);
+//   promiseFour.then(function(user){
+//       console.log("USER .......",user)
+//       return user.username
+//   }).then(function(username){
+//       console.log("user name" ,username);
 
-//   // }).catch(function(err){
-//   //     console.log("error",err);
+//   }).catch(function(err){
+//       console.log("error",err);
       
-//   // }).finally(function(){
-//   //   console.log("FINALY HEHEHEHEHEHEJU");
+//   }).finally(function(){
+//     console.log("FINALY HEHEHEHEHEHEJU");
     
-//   // })
+//   })
 
 //   //     OR
 
@@ -81,32 +114,32 @@
 //         }
 //   }
 
-  // consumePromiseFive();
+//   consumePromiseFive();
 
 
-  //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-  // async function getAllUsers(){
+//   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//   async function getAllUsers(){
 
-  //   try {
-  //     const res = await fetch('https://jsonplaceholder.typicode.com/users')
-  //     const data = await res.json()
-  //     console.log(data);
+//     try {
+//       const res = await fetch('https://jsonplaceholder.typicode.com/users')
+//       const data = await res.json()
+//       console.log(data);
 
-  //   } catch (error) {
-  //     console.log("ee",error);
+//     } catch (error) {
+//       console.log("ee",error);
       
-  //   }
+//     }
     
-  // }
-  // getAllUsers();
+//   }
+//   getAllUsers();
 
 
-  //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-fetch('https://jsonplaceholder.typicode.com/users')
-.then((res) => res )
-.then((res)=>{console.log(res);
-}).catch((err)=>{
-  console.log("errorrr haiiiiiiiiiiiiiii");
+// fetch('https://jsonplaceholder.typicode.com/users')
+// .then((res) => res )
+// .then((res)=>{console.log(res);
+// }).catch((err)=>{
+//   console.log("errorrr haiiiiiiiiiiiiiii");
   
-})
+// })
