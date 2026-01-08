@@ -177,3 +177,82 @@ h1{
   align-items: end;
   padding-right: 10%;
 }
+
+
+
+
+@media (max-width: 900px) {
+  .outer {
+    flex-direction: column;
+  }
+
+  .sidebar,
+  .main {
+    width: 100vw;
+    height: auto;
+  }
+
+  .sidebar {
+    padding: 20px 0;
+  }
+
+  .main {
+    align-items: center;
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+
+  .main1 {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .inp {
+    width: 90%;
+    padding-left: 5%;
+    height: auto;
+  }
+
+  .in,
+  #font,
+  .rnge {
+    width: 100%;
+  }
+
+  .color {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+
+  .c1 {
+    width: 100%;
+  }
+
+  .gg {
+    width: 100%;
+    height: 45px;
+  }
+
+  .main-box {
+    width: 200px;
+    height: 200px;
+  }
+
+  .main-text {
+    font-size: 20px;
+  }
+
+  #dnld {
+    margin-bottom: 15px;
+    align-self: center;
+  }
+}
