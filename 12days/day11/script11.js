@@ -1,3 +1,6 @@
+import { toPng } from 'https://cdn.skypack.dev/html-to-image';
+
+
 let inptext = document.querySelector('.in');
 let distext = document.querySelector('.main-text');
 let rnge  = document.querySelector('.rnge');
@@ -39,4 +42,28 @@ rnge.addEventListener('input',(e)=>{
 
 fnt.addEventListener('input',(e)=>{
   distext.style.fontFamily = e.target.value;
+})
+
+
+
+
+const downloadAsPng = async () => {
+  const node = document.getElementById('capture');
+
+  const dataUrl = await toPng(node, {
+    cacheBust: true,
+    pixelRatio: 2, // sharper image
+  });
+
+  const link = document.createElement('a');
+  link.download = 'component.png';
+  link.href = dataUrl;
+  link.click();
+};
+
+
+const dnld = document.getElementById('dnld');
+
+dnld.addEventListener('click',()=>{
+  downloadAsPng();
 })
