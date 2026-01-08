@@ -32,6 +32,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .main{
@@ -113,7 +114,7 @@ h1{
 }
 
 .main-box{
-  background-color: rgb(29, 107, 1);
+  background-color: rgb(112, 250, 62);
   height: 270px;
   width: 270px;
   border-radius: 10px;
@@ -124,7 +125,40 @@ h1{
 
 .main-text{
   font-size: larger;
-  color: #f7f7f7;
+  /* color: #f7f7f7; */
   white-space: nowrap;
 
+}
+
+.color{
+  background-color: #000000;
+  width: 80%;
+  height: 180px;
+  margin-top: 30px;
+  gap: 20px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+}
+
+.c1{
+  /* background-color: red; */
+  height: 48%;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  /* background-color: aqua; */
+  width: 50%;
+}
+
+.gg{
+  background-color: black;
+  width: 46%;
+  height: 90%;
+  margin-top: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
 }
