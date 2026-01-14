@@ -1,17 +1,19 @@
-function createUser(name , price){
-  this.name = name;
-  this.price = price;
+// function Car(color){
+//   this.color = color;
+// }
+// Car.prototype = {
+//   "hello" : "hi"
+// }
+
+// const tesla = new Car("cherry");
+
+// console.log(tesla);
+// console.log(tesla.__proto__);
+
+car = {
+	"hello" : "hiii"
 }
 
+const obj = Object.create(car);
 
-createUser.prototype.show = function(){
-  console.log("price is : ");
-  
-  console.log(this.price);
-}
-
-const a = new createUser("A", 50);
-a.show();
-
-const b = new createUser("b", 500);
-b.show();
+console.log(obj.__proto__);
