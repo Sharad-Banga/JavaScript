@@ -1,0 +1,23 @@
+
+
+function find(){
+  let a = [];
+  for (let i = 0; i<1000000 ; i++){
+    a[i] = i*i;
+  }
+
+  return function(index){
+    console.log(a[index]);
+  }
+}
+
+let j = find();
+
+console.time("6");
+j(6);
+console.timeEnd("6");
+
+
+console.time("12");
+j(12);
+console.timeEnd("12");

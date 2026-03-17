@@ -8,9 +8,9 @@
 // const con2  = fs.readFileSync("./b.txt","utf-8");
 // console.log(con2);
 
-// //this is synchronous approach
+//this is synchronous approach
 
-// // one by one
+// one by one
 
 // /**
 //  * 
