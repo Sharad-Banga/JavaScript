@@ -9,16 +9,16 @@ console.log(j);
 
 // reduce
 
-const array = [1,2,3];
+// const array = [1,2,3];
 
-// const myTotal = array.reduce(
+// // const myTotal = array.reduce(
 
-//   function (acc ,currval){
-//     return acc+currval
-//   } , 0
+// //   function (acc ,currval){
+// //     return acc+currval
+// //   } , 0
 
-// )
+// // )
 
-const sum = array.reduce((acc,curr)=>(acc+curr),1)
+// const sum = array.reduce((acc,curr)=>(acc+curr),1)
 
-console.log(sum);
+// console.log(sum);
