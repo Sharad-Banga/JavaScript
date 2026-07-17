@@ -7,7 +7,7 @@ function car(err,data){
     
   }
   else{
-    console.log("error nhi hai" ,data);
+    console.log("wooo : " ,data);
     
   }
 }
